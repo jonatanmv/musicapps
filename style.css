@@ -29,13 +29,9 @@ body {
   text-align: center; 
 }
 .cell {
-  border-right: 2px solid #336799;
+  border-right: none;
   border-bottom: 2px solid #336799;
   display: table-cell;
   padding-right: 4px;
   text-align: center;
-}
-
-.lastCell {
-  border-right: none;
 }
