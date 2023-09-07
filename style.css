@@ -1,26 +1,26 @@
-.containerDiv {
+.container {
   border: 1px solid #3697f6;
   width: 100%; display:table
 }
-.rowDivHeader {
+.rowheader {
   border: 1px solid #668db6;
   background-color: #336799;
   color: white;
   font-weight: bold; display:table-row
 }
-.rowDiv {
+.row {
   border: 1px solid #668db6;
   background-color: #cee6fe;
   display:table-row
 }
-.cellDivHeader {
+.cellheader {
   border-right: 1px solid white;
   display: table-cell;
   width:12%;
   padding: 1px;
   text-align: center; 
 }
-.cellDiv {
+.cell {
   border-right: 2px solid white;
   display: table-cell;
   width:10%;
