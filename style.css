@@ -1,9 +1,12 @@
 body {
-  margin:10px auto auto 100px;
+  margin:auto;
+  
 }
 
 .table {
   border: 0;
+  margin: auto;
+  padding: 10px;
   width: 100%;
   display:table;
 }
