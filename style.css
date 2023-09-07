@@ -10,14 +10,14 @@ body {
   display:table;
 }
 .rowheader {
-  border: 1px solid #668db6;
-  background-color: #336799;
+  border: 1px solid darkgrey;
+  background-color: darkgrey;
   color: white;
   font-weight: bold;
   display:table-row;
 }
 .row {
-  border: 1px solid #668db6;
+  border: 1px solid darkgrey;
   display:table-row;
 }
 .cellheader {
@@ -29,7 +29,7 @@ body {
 }
 .cell {
   border-right: none;
-  border-bottom: 2px solid #336799;
+  border-bottom: 2px solid darkgrey;
   display: table-cell;
   padding-right: 4px;
   text-align: center;
