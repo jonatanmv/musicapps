@@ -23,7 +23,6 @@ body {
 .cellheader {
   border-right: 1px solid white;
   display: table-cell;
-  width:12%;
   padding: 1px;
   text-align: center; 
 }
