@@ -19,6 +19,7 @@ body {
 .row {
   border: 1px solid #668db6;
   display:table-row;
+  width: 300px;
 }
 .cellheader {
   border-right: 1px solid white;
