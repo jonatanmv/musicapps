@@ -19,7 +19,6 @@ body {
 }
 .row {
   border: 1px solid #668db6;
-  background-color: #cee6fe;
   display:table-row;
 }
 .cellheader {
