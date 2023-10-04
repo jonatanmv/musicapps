@@ -3,12 +3,27 @@ body {
   
 }
 
-.table {
-  border: 0;
-  margin: auto;
-  width: 70%;
-  display:table;
+.cell {
+  border-right: none;
+  border-bottom: 2px solid darkgrey;
+  display: table-cell;
+  padding: 10px;
+  vertical-align: middle;
+
 }
+
+.cellheader {
+  border-right: 1px solid white;
+  display: table-cell;
+  padding: 1px;
+  text-align: center; 
+}
+
+.row {
+  border: 1px solid darkgrey;
+  display:table-row;
+}
+
 .rowheader {
   border: 1px solid darkgrey;
   background-color: darkgrey;
@@ -16,20 +31,11 @@ body {
   font-weight: bold;
   display:table-row;
 }
-.row {
-  border: 1px solid darkgrey;
-  display:table-row;
+
+.table {
+  border: 0;
+  margin: auto;
+  width: 70%;
+  display:table;
 }
-.cellheader {
-  border-right: 1px solid white;
-  display: table-cell;
-  padding: 1px;
-  text-align: center; 
-}
-.cell {
-  border-right: none;
-  border-bottom: 2px solid darkgrey;
-  display: table-cell;
-  padding-right: 4px;
-  text-align: center;
-}
+
