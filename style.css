@@ -16,7 +16,11 @@ body {
   border-right: 1px solid white;
   display: table-cell;
   padding: 1px;
-  text-align: center; 
+  text-align: center;
+}
+
+.center {
+  text-align: center;
 }
 
 .row {
