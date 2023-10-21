@@ -39,7 +39,7 @@ body {
 .table {
   border: 0;
   margin: auto;
-  width: 70%;
+  width: 90%;
   display:table;
   max-width: 800px;
 }
