@@ -32,15 +32,15 @@ body {
   border: 1px solid darkgrey;
   background-color: darkgrey;
   color: white;
-  font-weight: bold;
   display:table-row;
+  font-weight: bold;
 }
 
 .table {
   border: 0;
+  display:table;
   margin: auto;
   width: 90%;
-  display:table;
   max-width: 800px;
 }
 
