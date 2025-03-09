@@ -24,19 +24,6 @@ body {
   text-align: center;
 }
 
-.row {
-  border: 1px solid darkgrey;
-  display:table-row;
-}
-
-.rowheader {
-  border: 1px solid darkgrey;
-  background-color: darkgrey;
-  color: white;
-  display:table-row;
-  font-weight: bold;
-}
-
 .table {
   border: 0;
   display:table;
@@ -45,3 +32,15 @@ body {
   max-width: 800px;
 }
 
+.table>div:first-child{
+  border: 1px solid darkgrey;
+  background-color: darkgrey;
+  color: white;
+  display:table-row;
+  font-weight: bold;
+}
+
+.table>div:not(:first-child) {
+  border: 1px solid darkgrey;
+  display:table-row;
+} 
